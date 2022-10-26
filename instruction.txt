@@ -25,6 +25,11 @@ Remote add
        git remote add origin <repo link>
        // Already remote add to change remote url
        git remote set-url <Remote name> <URL>
+
+Vs code - Understanding of GIT 
+       - Anything you can change to file vs code below left side <branch name>* || master* <--- modified file || Stagged Changes
+                                                                                    master + <---- ||Stagged Changes
+
        
 
 Branch - 

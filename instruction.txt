@@ -12,5 +12,25 @@ Git => afzal => 0.0.1
 Git => af   => 0.0.2
 Git => 560  => 0.0.3
 
+// First Time push Code to Github Basic 
+	1. git init
+	2. git remote add origin <repo link>
+	3. git add . || add . means all files || add <filename> //  cold Stagging
+	4. git commit -m "Message" // commiting
+	5. git push || git push origin <branch name>
+       6. Git status
+
+Remote add    
+       // You can check which remote url is already exit       => git remote -v
+       git remote add origin <repo link>
+       // Already remote add to change remote url
+       git remote set-url <Remote name> <URL>
+       
+
+Branch - 
+       Create New Branch => 
+              git checkout -b dev
+       move one Branch to another 
+              git checkout master
 
 Every programmer should known git.

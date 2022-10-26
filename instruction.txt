@@ -1,0 +1,16 @@
+**************** link new**********************
+https://www.youtube.com/watch?v=AT1uxOLsCdk
+
+**************** link **********************
+
+Git is a Tool that allows you version control.
+Version control means Whenever code is modified, Whenever code is created. Whenever code is deleted, every timestrep,  everything  git does for you.    
+
+just understanding for me
+       contant version
+Git => afzal => 0.0.1
+Git => af   => 0.0.2
+Git => 560  => 0.0.3
+
+
+Every programmer should known git.

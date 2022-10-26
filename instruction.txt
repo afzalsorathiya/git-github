@@ -32,8 +32,8 @@ Vs code - Understanding of GIT
               // After commiting 
                      Vs code below left side 1 request send to server 1| sign  
 
-
-       
+                     // All files clear 
+                            than simple |||||||||||||||||| master    
 
 Branch - 
        Create New Branch => 

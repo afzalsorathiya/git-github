@@ -6,11 +6,27 @@ https://www.youtube.com/watch?v=AT1uxOLsCdk
 Git is a Tool that allows you version control.
 Version control means Whenever code is modified, Whenever code is created. Whenever code is deleted, every timestrep,  everything  git does for you.    
 
+--- Start ----
+git --version // to check git version 
+git config --global user.name "name"
+git config --global user.email "email"
+	git config --global user.name
+	git config --global user.email
+
 just understanding for me
        contant version
 Git => afzal => 0.0.1
 Git => af   => 0.0.2
 Git => 560  => 0.0.3
+
+…or create a new repository on the command line
+echo "# mi_card" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/afzalsorathiya/mi_card.git
+git push -u origin main
 
 // First Time push Code to Github Basic 
 	1. git init
@@ -21,14 +37,22 @@ Git => 560  => 0.0.3
        6. Git status
 
 Remote add    
-       // You can check which remote url is already exit       => git remote -v
-       git remote add origin <repo link>
-       // Already remote add to change remote url
+       // change existing url 
+       git remote set-url origin [url]
+       -> $ git remote set-url origin https://git-repo/new-repository.git
        git remote set-url <Remote name> <URL>
 
+
+       // You can check which remote url is already exit       => git remote -v
+       git remote add origin <repo link>
+       
+
 Vs code - Understanding of GIT 
-       - Anything you can change to file vs code below left side <branch name>* || master* <--- modified file || Stagged Changes
+       - Anything you can change to file vs code below left side <branch name>* || master* <--- modified file || 
                                                                                     master + <---- ||Stagged Changes
+                                          if your file is stagged after this unstagged command is
+                                                 - git Restore --staged <file name> || git restore --staged .
+
               // After commiting 
                      Vs code below left side 1 request send to server 1| sign  
 

@@ -40,5 +40,6 @@ Branch -
               git checkout -b dev
        move one Branch to another 
               git checkout master
+       Git Restore <file name>
 
 Every programmer should known git.

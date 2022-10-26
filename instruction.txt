@@ -29,6 +29,9 @@ Remote add
 Vs code - Understanding of GIT 
        - Anything you can change to file vs code below left side <branch name>* || master* <--- modified file || Stagged Changes
                                                                                     master + <---- ||Stagged Changes
+              // After commiting 
+                     Vs code below left side 1 request send to server 1| sign  
+
 
        
 

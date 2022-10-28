@@ -66,4 +66,6 @@ Branch -
               git checkout master
        Git Restore <file name>
 
+// Check Previous commit
+Git log 
 Every programmer should known git.
